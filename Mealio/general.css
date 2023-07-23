@@ -1,0 +1,79 @@
+.container {
+  width: 130rem;
+  margin: 0 auto;
+}
+
+.btn,
+.btn-full,
+.btn-outline {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+
+  font-size: 1.8rem;
+  padding: 1.8rem 3.6rem;
+  border-radius: 5px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn-outline:link,
+.btn-outline:visited {
+  background-color: #ecc6a5;
+}
+
+.paragraph {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+.heading-secondary {
+  font-size: 4.8rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.subheading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #cf711f;
+  text-transform: uppercase;
+}
+
+.grid--2cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid--3cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid--4cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.vsync {
+  align-items: center;
+}
+
+/*
+--- COLORS
+
+- Primary : #e67e22
+- Tints : #fdf2e9
+- Shades : #cf711f
+- Accents : #ecc6a5 #f5e3d2 (img circle backgroudn) , #f0b27a
+- Greys : #555 #333
+
+
+MARGIN-BOTTOM
+- Section 6.8 / 9.6
+- Elements 4.8 3.6 2.4
+*/
